@@ -2,6 +2,50 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+// social footer buttons
+#social:hover {
+    			-webkit-transform:scale(1.1); 
+-moz-transform:scale(1.1); 
+-o-transform:scale(1.1); 
+			}
+			#social {
+				-webkit-transform:scale(0.8);
+                /* Browser Variations: */
+-moz-transform:scale(0.8);
+-o-transform:scale(0.8); 
+-webkit-transition-duration: 0.5s; 
+-moz-transition-duration: 0.5s;
+-o-transition-duration: 0.5s;
+			}           
+/* 
+    Only Needed in Multi-Coloured Variation 
+                                               */
+			.social-fb:hover {
+				color: #9954bb;
+			}
+			.social-tw:hover {
+				color: #9954bb;
+			}
+			.social-ig:hover {
+				color: #A27EAF;
+			}
+			.social-em:hover {
+				color: #A27EAF;
+			}
+
+			.social-fb {
+				color: #A27EAF;
+			}
+			.social-tw {
+				color: #A27EAF;
+			}
+			.social-ig {
+				color: #A27EAF;
+			}
+			.social-em {
+				color: #A27EAF;
+			}
+
 // make all images responsive by default
 img {
   @extend .img-responsive;
